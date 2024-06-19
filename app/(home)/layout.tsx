@@ -1,3 +1,4 @@
+import { FooterHome } from "./footer";
 import { HeaderHome } from "./header";
 
 type Props = {
@@ -11,6 +12,7 @@ const LayoutHome = ({children} : Props) => {
             <main>
                 {children}
             </main>
+            <FooterHome />
         </>
     )
 }
